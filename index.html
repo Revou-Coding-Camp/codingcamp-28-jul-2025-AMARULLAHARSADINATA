@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Perusahaan">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Our Profile</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Message Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Halaman Home -->
+    <section id="home" class="hero">
+        <h1>Hi <span id="user-name">Harfi</span>, Welcome to Website</h1>
+        <p>Ini website portofolio saya, AMARULLAH ARSADINATA</p>
+        <img src="images/banner.png" alt="Banner" class="banner">
+    </section>
+
+    <!-- Halaman Our Profile -->
+    <section id="profile">
+<h2>Tentang Portofolio Ini</h2>
+<p>Website ini merupakan portofolio pribadi yang dirancang untuk memperkenalkan profil, keterampilan, dan hasil karya saya di bidang teknologi dan pengembangan web. Tujuan dari portofolio ini adalah untuk memberikan gambaran yang jelas kepada pengunjung, rekan kerja, maupun calon pemberi kerja tentang kemampuan dan pengalaman yang saya miliki.</p>
+
+
+
+        <h3 class="location-title">yang sedang ditekuni</h3>
+        <div class="locations">
+            <div class="location">
+                <img src="images/html.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="location">
+                <img src="images/css.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="location">
+                <img src="images/javascript.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="location">
+                <img src="images/php.png" alt="PHP">
+                <p>PHP</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Message Us -->
+    <section id="contact" class="form-section">
+        <h2>Message Us</h2>
+        <div class="form-container">
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" required>
+
+                <label for="dob">Tanggal Lahir:</label>
+                <input type="date" id="dob" required>
+
+                <label>Jenis Kelamin:</label>
+                <label><input type="radio" name="gender" value="Laki-laki" required> Laki-laki</label>
+                <label><input type="radio" name="gender" value="Perempuan" required> Perempuan</label>
+
+                <label for="phone">Nomor Telepon:</label>
+                <input type="tel" id="phone" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+
+            <div id="result">
+                <p><strong>Current time :</strong> -</p>
+                <p><strong>Nama :</strong> -</p>
+                <p><strong>Tanggal Lahir :</strong> -</p>
+                <p><strong>Jenis Kelamin :</strong> -</p>
+                <p><strong>Telepon :</strong> -</p>
+                <p><strong>Pesan :</strong> -</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by RevoU</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
